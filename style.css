@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+</style > body {
+  background: rgb(170, 170, 170);
+  margin: 20px;
+}
+
+h1 {
+  position: absolute;
+  width: 429px;
+  height: 93px;
+  left: 301px;
+  top: 60px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 65px;
+  text-align: center;
+}
+
+h3 {
+  position: absolute;
+  width: 600px;
+  height: 93px;
+  left: 218px;
+  top: 150px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.inputcaption {
+  position: absolute;
+  width: 349px;
+  height: 53px;
+  left: 235px;
+  top: 516px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.infobox {
+  position: absolute;
+  width: 700px;
+  height: 450px;
+  left: 168px;
+  top: 156px;
+  background: #b3e2f1;
+}
+
+.confirmbox {
+  position: absolute;
+  width: 700px;
+  height: 100px;
+  left: 170px;
+  top: 660px;
+  background: #b3e2f1;
+}
+
+.pic {
+  position: absolute;
+  width: 300px;
+  left: 366px;
+  top: 300px;
+}
+
+.submitbutton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 680px;
+  top: 552px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.ArloInput {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 505px;
+  top: 545px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.finalconfirm {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 500px;
+  top: 705px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.retrybutton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 620px;
+  top: 705px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.agecaption {
+  position: absolute;
+  width: 349px;
+  height: 53px;
+  left: 300px;
+  top: 672px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.message {
+  position: absolute;
+  top: 665px;
+  left: 410px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.newdog {
+  position: absolute;
+  width: 700px;
+  height: 93px;
+  left: 168px;
+  top: 470px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.arlodeath {
+  position: absolute;
+  width: 600px;
+  height: 93px;
+  left: 218px;
+  top: 150px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.continuebutton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 450px;
+  top: 588px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.inputcaptionted {
+  position: absolute;
+  width: 349px;
+  height: 53px;
+  left: 235px;
+  top: 516px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.TedInput {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 550px;
+  top: 545px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.tedsubmitbutton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 730px;
+  top: 552px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.pica2 {
+  position: absolute;
+  width: 300px;
+  left: 366px;
+  top: 280px;
+}
+
+.infobox2 {
+  position: absolute;
+  width: 700px;
+  height: 480px;
+  left: 168px;
+  top: 156px;
+  background: #b3e2f1;
+}
+
+.teddeath {
+  position: absolute;
+  width: 600px;
+  height: 93px;
+  left: 218px;
+  top: 150px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.tedpic {
+  position: absolute;
+  width: 300px;
+  left: 366px;
+  top: 310px;
+}
+
+.tednewdog {
+  position: absolute;
+  width: 700px;
+  height: 93px;
+  left: 168px;
+  top: 480px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+}

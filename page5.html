@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="input.js" type="text/javascript" rel="preload">
+</head>
+
+<body>
+  <h1>Enter Your Age</h1>
+
+  <div class="infobox">
+  </div>
+
+  <h3> How many times could this dog (Socks) live and die in the amount of years you have been alive? </h3>
+  <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-1100x628.jpg" style="width:300px" class="pic" ; />
+
+  <p class="inputcaptionted">
+    Number of Socks Lives:
+  </p>
+
+  <script>
+    function testResults(form) {
+      var TestVar = form.inputbox.value;
+      var arloAge = TestVar * 9.5;
+      document.getElementById('message').innerHTML = arloAge;
+    }
+  </script>
+
+  <FORM NAME="myform" ACTION="" METHOD="GET">
+    <INPUT TYPE="number" NAME="inputbox" VALUE="" class="TedInput">
+    <P>
+      <INPUT TYPE="button" class="tedsubmitbutton" NAME="button" Value="Enter" onClick="testResults(this.form)">
+  </FORM>
+
+  <div class="confirmbox">
+  </div>
+
+  <p id='message' class="message"></p>
+
+  <p class="agecaption">
+    You are:
+  </p>
+
+  <a href="confirmed.html">
+    <button class="finalconfirm" type="c">Confirm</button>
+  </a>
+
+  <a href="page6.html">
+    <button type="Retry" class="retrybutton">Retry</button>
+  </a>
+
+</body>
+
+</html>

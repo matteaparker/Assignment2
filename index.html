@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Enter Your Age</h1>
+
+  <div class="infobox">
+  </div>
+
+  <h3> How many times could this dog (Arlo) live and die in the amount of years you have been alive? </h3>
+  <img src="https://worldanimalnews.com/wp-content/uploads/2020/06/sad-golden-retriever-puppy.jpeg" style="width:300px" class="pic" ; />
+
+  <p class="inputcaption">
+    Number of Arlo Lives:
+  </p>
+
+  <script>
+    function testResults(form) {
+      var TestVar = form.inputbox.value;
+      var arloAge = TestVar * 3;
+      document.getElementById('message').innerHTML = arloAge;
+    }
+  </script>
+
+  <FORM NAME="myform" ACTION="" METHOD="GET">
+    <INPUT TYPE="number" NAME="inputbox" VALUE="" class="ArloInput">
+    <P>
+      <INPUT TYPE="button" class="submitbutton" NAME="button" Value="Enter" onClick="testResults(this.form)">
+  </FORM>
+
+  <div class="confirmbox">
+  </div>
+
+  <p id='message' class="message"></p>
+
+  <p class="agecaption">
+    You are:
+  </p>
+
+  <a href="confirmed.html">
+    <button class="finalconfirm" type="Confirm">Confirm</button>
+  </a>
+
+  <a href="page2.html">
+    <button type="Retry" class="retrybutton">Retry</button>
+  </a>
+
+  <!-- -->
+
+</body>
+
+</html>
